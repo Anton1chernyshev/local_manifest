@@ -4,6 +4,7 @@
   <project name="Anton1chernyshev/android_device_xiaomi_libra" path="device/xiaomi/libra" remote="github" revision="aospa" />
   <project name="Anton1chernyshev/android_kernel_xiaomi_libra" path="kernel/xiaomi/libra" remote="github" revision="aospa" />
   <project name="Anton1chernyshev/android_vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="github" revision="aospa" />
+  <project name="Anton1chernyshev/android_vendor_kenga" path="vendor/kenga" remote="github" revision="aospa" />
   <project name="AOSPA/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="aospa" revision="nougat-mr2-8994" />
   <project name="AOSPA/android_hardware_qcom_display" path="hardware/qcom/display" remote="aospa" revision="nougat-mr2-8994" />
   <project name="AOSPA/android_hardware_qcom_media" path="hardware/qcom/media" remote="aospa" revision="nougat-mr2-8994" />
