@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- You should probably let Roomservice deal with this unless you know what you are doing. -->
 <manifest>
+
+  <!-- Device -->
   <project name="Anton1chernyshev/android_device_xiaomi_libra" path="device/xiaomi/libra" remote="github" revision="aospa" />
+
+  <!-- Kernel -->
   <project name="Anton1chernyshev/android_kernel_xiaomi_libra" path="kernel/xiaomi/libra" remote="github" revision="aospa" />
+
+  <!-- Vendor -->
   <project name="Anton1chernyshev/android_vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="github" revision="aospa" />
+
+  <!-- Overlay (translate) -->
   <project name="Anton1chernyshev/android_vendor_kenga" path="vendor/kenga" remote="github" revision="aospa" />
+
+  <!-- CM charger -->
   <project name="Anton1chernyshev/android_vendor_cm_charger" path="vendor/cm/charger" remote="github" revision="aospa" />
+
+  <!-- AOSPA Hardware -->
   <project name="AOSPA/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="aospa" revision="nougat-mr2-8994" />
   <project name="AOSPA/android_hardware_qcom_display" path="hardware/qcom/display" remote="aospa" revision="nougat-mr2-8994" />
   <project name="AOSPA/android_hardware_qcom_media" path="hardware/qcom/media" remote="aospa" revision="nougat-mr2-8994" />
-  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.1" />
+
 </manifest>
